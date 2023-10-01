@@ -7,6 +7,7 @@ type Product {
     totalRatings: Int
     rating: Float
     ratings: [ProductRating]!
+    store: UUID!
 }
 
 input ProductInput {
